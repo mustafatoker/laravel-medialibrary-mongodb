@@ -1,4 +1,4 @@
-# Associate files with Eloquent models
+# Associate files with Eloquent Mongodb models
 
 [![Latest Version](https://img.shields.io/github/release/spatie/laravel-medialibrary.svg?style=flat-square)](https://github.com/spatie/laravel-medialibrary/releases)
 [![Build Status](https://img.shields.io/travis/spatie/laravel-medialibrary/master.svg?style=flat-square)](https://travis-ci.org/spatie/laravel-medialibrary)
@@ -61,11 +61,32 @@ For the creation of thumbnails of svg's or pdf's you should also install [Imagic
 
 ## Installation
 
-You can install this package via composer using this command:
+You can install this package via composer using this json to adds your composer.json:
 
-```bash
-composer require spatie/laravel-medialibrary:^7.0.0
 ```
+"repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "mustafatoker/laravel-mongodb-media-library",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/mustafatoker/laravel-medialibrary-mongodb.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+```
+
+Adds this json to your require section in composer.json file
+
+```
+"mustafatoker/laravel-mongodb-media-library": "master"
+```
+
+Then run composer install/update or whatever.
 
 The package will automatically register itself.
 
