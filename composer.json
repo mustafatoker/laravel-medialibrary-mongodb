@@ -9,7 +9,7 @@
     "images",
     "downloads",
     "cms",
-    "laravel",
+    "laravel"
   ],
   "homepage": "https://github.com/mustafatoker/laravel-medialibrary-mongodb",
   "license": "MIT",
