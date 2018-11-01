@@ -64,26 +64,7 @@ For the creation of thumbnails of svg's or pdf's you should also install [Imagic
 You can install this package via composer using this json to adds your composer.json:
 
 ```
-"repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "mustafatoker/laravel-mongodb-media-library",
-                "version": "master",
-                "source": {
-                    "url": "https://github.com/mustafatoker/laravel-medialibrary-mongodb.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        }
-    ],
-```
-
-Adds this json to your require section in composer.json file
-
-```
-"mustafatoker/laravel-mongodb-media-library": "master"
+composer require mustafatoker/laravel-medialibrary-mongodb
 ```
 
 Then run composer install/update or whatever.
